@@ -587,8 +587,7 @@ class Calculator:
 
 class Errors:
     def file_missing(cls,
-                     url='https://github.com/Prashant-ranjan-singh-123/MyAllProgramsInOneRepo/tree/main/'
-                         '4)%20Python%20Language/GUI%20Program/Library%20Management',
+                     url='https://github.com/Prashant-ranjan-singh-123/Python_GUI_Calculator',
                      show_name_of_url='www.github.com'):
         def callback(url):
             webbrowser.open_new_tab(url)
